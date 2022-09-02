@@ -26,7 +26,7 @@ public class BookController {
 
 	@PostMapping("/addbook")
 	public Book addbook(@RequestBody Book book) {
-		System.out.println("controller");
+		System.out.println("controlleri");
 		System.out.println(book.toString());
 		return bookservice.addBook(book);
 	}
